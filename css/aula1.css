@@ -1,0 +1,37 @@
+
+
+body{
+    background-color: rgb(243, 219, 0);
+}
+mark{
+    background-color: rgb(255, 255, 255);
+}
+
+p{
+    background-color: antiquewhite;
+}
+h1{
+    color: rgb(212, 0, 255);
+}
+img{
+    width: 500px;
+
+}
+ul{
+    list-style: none;
+}
+ul li{
+    display: inline-block;
+    padding: 10PX;
+    background-color: antiquewhite;
+}
+ul li:hover{
+    background-color: rgb(218, 136, 28);
+
+}
+ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: brown;
+    font-size: 20pt;
+}
