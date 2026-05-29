@@ -12,11 +12,16 @@
 
 body {
     color: var(--platinum);
-    /* font-family: Fortnite; */
+    font-family: 'Courier New';
     background-color: var(--midnight-violet);
+    font-size: var(--tamanho 3);
 }
 .tituloPrincipal{
     text-align: center;
+}
+.tituloPrincipal span:nth-child(1){
+    color: aqua;
+    text-align: center
 }
 .img-banner {
     margin-left: auto;
@@ -24,7 +29,7 @@ body {
 }
 
 header {
-    background-color: rgb(14, 171, 199);
+    background-color: rgb(192, 0, 182);
 }
 .menu {
     text-align: center;
@@ -37,30 +42,35 @@ header {
 .menu ul li {
     display: inline-block;
     padding: 20px;
-    border: 1px solid #000;
+    border: 1px solid #ffebeb;
     background-color: aqua;
 }
 
+
 section {
-    /* background-color: aquamarine; */
+    background-color:pink;
 }
 
-/* section section{
-           font-size: 0;
-        }    */
+section{
+    background-color: #00c030;
+    font-size: large;
+}
 #turmas .sala {
     display: inline-block;
     vertical-align: top;
-    background-color: burlywood;
+    background-color: rgb(16, 189, 0);
     min-height: 300px;
     width: 100%;
     min-height: 350px;
-    border: 2px solid #000;
+    border: 2px solid #00c030;
     box-sizing: border-box;
+}
+span{
+    color: #159ca3;
 }
 
 #turmas footer {
-    background-color: red;
+    background-color: rgb(31, 25, 20);
 }
 
 #turmas footer h3 {
@@ -73,7 +83,7 @@ section {
 }
 
 #turmas .sala.turma_B{
-    background-color: blueviolet;
+    background-color: rgb(200, 196, 204);
 }
 
 
@@ -83,4 +93,11 @@ section {
 }
 .listaAlunos li {
     padding: 5px;
+}
+.menu ul li{
+    border-color: #13ff62;
+    padding: 20px;
+}
+.menu ul li a:visited{
+    background-color: #ffffff;
 }

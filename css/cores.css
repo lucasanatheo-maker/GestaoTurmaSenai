@@ -1,8 +1,8 @@
 :root{
-    --CorPreta:#000;
-    --midnight-violet: #351431ff;
-    --platinum: #eef0f2ff;
-    --slate-blue: #735cddff;
-    --tuscan-sun: #e7bb41ff;
-    --vibrant-coral: #f56960ff;
+    --CorPreta:#ad8181;
+    --midnight-violet: rgb(79, 0, 116);
+    --platinum: rgb(255, 255, 255);
+    --slate-blue: rgb(66, 47, 146);
+    --tuscan-sun: rgb(2, 0, 46);
+    --vibrant-coral: rgb(211, 118, 112);
 }
