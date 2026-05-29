@@ -5,10 +5,10 @@
 
 
 
-/* @font-face {
+@font-face {
     font-family: Mario;
     src: url(fonts/retro_mario/RetroMario-Regular.otf)
-} */
+} 
 
 body {
     color: var(--platinum);
